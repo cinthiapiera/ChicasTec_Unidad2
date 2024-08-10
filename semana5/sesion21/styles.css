@@ -1,0 +1,32 @@
+.subtitulo{
+    border:5px inset gray;
+}
+
+.caja1{
+    border: 2px solid purple;
+    padding: 50px 30px 50px 80px;
+    /* padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px; */
+}
+
+.caja2{
+    border: 2px solid green;
+    margin: 20px;
+    /* padding: 50px; */
+    text-align: center;
+}
+
+div{
+    border: 2px solid red;
+    width: 200px;
+    display: inline-block;
+}
+
+.hide{
+    /* display: none; */
+    visibility: hidden;
+}
+
+

@@ -1,0 +1,23 @@
+Comandos Básicos de Git Bash y Git en Windows
+Comandos de Git Bash:
+Listar contenido de directorios:
+
+ls: Lista el contenido de un directorio.
+ls -l: Lista el contenido en formato largo, incluyendo tipo de archivo, permisos, propietario, tamaño, última modificación, etc.
+ls -a: Lista todo el contenido, incluyendo archivos ocultos (los que comienzan con un punto, como .git).
+Navegación entre directorios:
+
+cd nombredirectorio: Accede a un directorio.
+cd ..: Ingresa al directorio padre del actual.
+cd ./nombredirectorio: Accede a un directorio dentro del directorio actual.
+cd: Vuelve al directorio por defecto del usuario.
+Crear directorios y archivos:
+
+mkdir proyecto: Crea un nuevo directorio.
+mkdir proyecto/codigo: Crea el directorio codigo dentro del directorio proyecto.
+touch nombrearchivo: Crea un nuevo archivo.
+Eliminar archivos y directorios:
+
+rm clase.txt: Elimina un archivo.
+rm -r codigo: Elimina un directorio y su contenido.
+rm *.txt: Elimina todos los archivos que terminen en .txt.

@@ -1,0 +1,75 @@
+Instalación de Git en Windows
+
+Paso 1: Descargar Git para Windows
+Ve a la página oficial de descargas de Git: https://git-scm.com/downloads.
+Haz clic en el botón de descarga para Windows. Esto descargará el instalador de Git.
+
+Paso 2: Ejecutar el Instalador
+Ejecuta el archivo .exe que descargaste.
+Aparecerá una ventana del instalador. Haz clic en Next para comenzar la instalación.
+
+Paso 3: Configuración del Instalador
+Seleccionar ubicación de instalación:
+
+Deja la ubicación de instalación predeterminada o elige una ubicación de tu preferencia.
+Haz clic en Next.
+Seleccionar componentes:
+
+Asegúrate de seleccionar la opción Git Bash Here para agregar la opción al menú contextual del Explorador de Windows.
+Haz clic en Next.
+Seleccionar el editor predeterminado:
+
+Elige el editor de texto que prefieras para usar con Git (por ejemplo, Vim, Notepad++, Visual Studio Code).
+Haz clic en Next.
+Ajustar la variable de entorno PATH:
+
+Selecciona la opción Git from the command line and also from 3rd-party software.
+Haz clic en Next.
+Elegir HTTPS transport backend:
+
+Selecciona Use the OpenSSL library.
+Haz clic en Next.
+Configuración de los finales de línea:
+
+Selecciona Checkout Windows-style, commit Unix-style line endings.
+Haz clic en Next.
+Configuración de la terminal:
+
+Selecciona Use MinTTY (the default terminal of MSYS2).
+Haz clic en Next.
+Opciones adicionales:
+
+Puedes dejar las opciones predeterminadas seleccionadas.
+Haz clic en Next.
+Opciones experimentales:
+
+Puedes dejar las opciones predeterminadas seleccionadas.
+Haz clic en Install para comenzar la instalación.
+Paso 4: Finalizar la Instalación
+Una vez que la instalación se haya completado, haz clic en Finish.
+
+Puedes seleccionar la opción para iniciar Git Bash inmediatamente si deseas.
+
+Configuración de Git en Git Bash
+
+Configurar usuario y email:
+
+git config --global user.name "estudiante-ctc"
+git config --global user.email estudiante@crackthecode.la
+git config --list  # Verifica la configuración de usuario en cualquier momento.
+Iniciar un repositorio:
+
+git init  # Crea un nuevo repositorio de Git en el directorio actual.
+Preparar y guardar cambios:
+
+git add .: Agrega todos los archivos presentes en el proyecto al área de preparación (stage area).
+git commit -m "mensaje": Guarda los cambios que están en el área de preparación. El mensaje debe describir brevemente los cambios realizados.
+Consultar historial y estado del repositorio:
+
+git log: Muestra todos los commits realizados históricamente en el repositorio.
+git status: Indica el estado del repositorio, mostrando si hay cambios que no han sido comiteados y si estos han sido agregados al área de preparación.
+
+Consejos Adicionales
+Commits frecuentes: Realiza commits frecuentes con mensajes claros para mantener un historial detallado de los cambios.
+Comentarios claros: Los mensajes de commit deben ser concisos y descriptivos, indicando qué cambios se realizaron y por qué.
+Revisar el estado: Usa git status frecuentemente para verificar qué archivos han cambiado y necesitan ser añadidos o comiteados.

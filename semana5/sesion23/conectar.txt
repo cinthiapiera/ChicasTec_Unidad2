@@ -1,0 +1,24 @@
+Conectar el Repositorio de GitHub con tu Proyecto Local
+Paso 1: Inicializar Git en tu Proyecto Local
+Abre Git Bash en tu computadora.
+Navega al directorio de tu proyecto:
+
+cd ruta/a/tu/proyecto
+Inicializa un repositorio de Git:
+
+git init
+Paso 2: Agregar el Repositorio Remoto
+En la página de tu nuevo repositorio en GitHub, copia la URL del repositorio (debe verse algo así: https://github.com/tu-usuario/tu-repositorio.git).
+En Git Bash, agrega el repositorio remoto a tu proyecto local:
+
+git remote add origin https://github.com/tu-usuario/tu-repositorio.git
+Paso 3: Realizar el Primer Push
+Agrega los archivos de tu proyecto al área de preparación:
+
+git add .
+Realiza un commit con un mensaje descriptivo:
+
+git commit -m "Primer commit"
+Empuja tus cambios al repositorio remoto:
+
+git push -u origin master

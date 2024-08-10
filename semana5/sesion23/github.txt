@@ -1,0 +1,26 @@
+Crear una Cuenta en GitHub
+Paso 1: Registrarse en GitHub
+1.- Ve a la página principal de GitHub: https://github.com/.
+2.- Haz clic en el botón Sign up en la esquina superior derecha.
+3.- Completa los campos requeridos:
+Username: Elige un nombre de usuario.
+Email address: Ingresa tu dirección de correo electrónico.
+Password: Elige una contraseña segura.
+4.- Haz clic en Create account.
+5.- Sigue las instrucciones adicionales para completar la configuración de tu cuenta, incluyendo la verificación de tu correo electrónico.
+
+Crear un Nuevo Repositorio en GitHub
+Paso 1: Iniciar Sesión en GitHub
+1.- Ve a la página principal de GitHub: https://github.com/.
+2.- Haz clic en Sign in en la esquina superior derecha.
+3.- Ingresa tu nombre de usuario y contraseña, luego haz clic en Sign in.
+
+Paso 2: Crear un Nuevo Repositorio
+1.- Una vez que hayas iniciado sesión, haz clic en el ícono + en la esquina superior derecha y selecciona New repository.
+2.- Completa los detalles del nuevo repositorio:
+Repository name: Ingresa un nombre para tu repositorio.
+Description (optional): Ingresa una descripción breve del proyecto.
+Public / Private: Elige si el repositorio será público o privado.
+Initialize this repository with a README: Marca esta opción si deseas que GitHub cree un archivo README.md automáticamente.
+Haz clic en Create repository.
+
