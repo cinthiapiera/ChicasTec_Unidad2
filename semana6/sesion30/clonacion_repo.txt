@@ -1,0 +1,42 @@
+Paso 1: Clona el repositorio desde GitHub:
+
+$git clone https://github.com/cinthiapiera/veri_creditcard.git
+(Nota: Aquí usarán la URL del repositorio que hayas compartido.)
+
+Paso 2: Entra en el directorio del repositorio clonado:
+
+$cd veri_creditcard
+
+Paso 3: 
+
+Haz las modificaciones necesarias en el proyecto.
+
+Paso 4: 
+
+Agrega tus cambios y realiza el commit:
+$git add .
+$git commit -m "Descripción de los cambios"
+
+Paso 5: 
+
+Cambia la URL del remoto origin para apuntar a su propio repositorio en GitHub.
+
+$git remote set-url origin https://github.com/[tu-usuario]/[tu-repo].git
+(Reemplaza [tu-usuario] y [tu-repo] con su nombre de usuario y el nombre de su repositorio.)
+
+Paso 6: 
+
+Asegúrate de que el remoto origin apunta nuestro repositorio correcto:
+$git remote -v
+
+Paso 7: 
+
+Si la rama local no está nombrada como master y deseas usar master, renómbrala:
+$git branch -M master
+(Nota: Si el repositorio remoto utiliza main como nombre de rama, usa main en lugar de master.)
+
+Paso 8: 
+
+Sube la rama local al repositorio remoto y establece la rama remota como predeterminada:
+$git push -u origin master
+(O usa main si esa es la rama que están usando.)
